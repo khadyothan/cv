@@ -1,0 +1,154 @@
+body {
+    margin: 0;
+    font-family: 'Roboto Slab', serif;
+    text-align: center; 
+    color: #40514E;
+    line-height: 2;
+}
+
+.top-container {
+    background-color: #E4F9F5;
+    position: relative;
+    padding-top: 100px;
+}
+
+
+.bottom-container {
+    margin-top: 50px;
+    background-color: #66BFBF;
+    padding: 10px 0 20px 0;
+}
+
+.first-cloud {
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+
+.second-cloud {
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+
+.profile-pic {
+    height: 150px;
+}
+
+.film-making {
+    height: 150px;
+    float: right;
+    padding-left: 20px;
+}
+
+.web-development {
+    height: 150px;
+    float: left; /* clear is the reverse of float, it will clear the mentioned side */
+    padding-right: 20px;
+}
+
+
+h1 {
+    margin: 50px auto 0 auto;
+    font-size: 3em; /* 16px == 100% == 1em */ /* This gets added to the parents font size (relative) if we use px or %*/
+    /* To avoid parents styling and set relative to the root we use rem instead of em */
+    font-family: "Sacramento", sans-serif;
+    color: #66BFBF;
+}
+
+p {
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.1em;
+    color:black;
+    font-display: bold;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto 150px auto;
+}
+
+h3, h2 {
+    color: #66BFBF;
+}
+
+.profile {
+    padding-top: 50px;
+}
+
+hr {
+    border: dotted #EAF6F6 6px;
+    border-bottom: none;
+    width: 10%;
+    margin: 100px auto;
+}
+
+.intro {
+    width: 25%;
+    margin: 30px auto;
+}
+
+.contact {
+    width: 30%;
+    margin: 30px auto;
+}
+
+a {
+    color: #11999E;
+    font-family: 'Roboto Slab', serif;
+    margin: 10px 15px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #EAF6F6;
+}
+
+.copyright {
+    color: #EAF6F6;
+    font-size: 0.75rem;
+    padding: 20px 0;
+}
+
+.btn {
+    background: #11CDD4;
+    background-image: -webkit-linear-gradient(top, #11CDD4, #11999E);
+    background-image: -moz-linear-gradient(top, #11CDD4, #11999E);
+    background-image: -ms-linear-gradient(top, #11CDD4, #11999E);
+    background-image: -o-linear-gradient(top, #11CDD4, #11999E);
+    background-image: -webkit-gradient(to bottom, #11CDD4, #11999E);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    height: 0;
+    line-height: 0;
+    color: #FFFFFF;
+    font-family: "Montserrat", sans-serif;
+    width: 149px;
+    font-size: 15px;
+    font-weight: 100;
+    padding: 20px;
+    text-shadow: 1px 1px 20px #000000;
+    border: solid #337FED 1px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+ }
+ 
+ .btn:hover {
+    border: solid #337FED 1px;
+    background: #30E3CB;
+    background-image: -webkit-linear-gradient(top, #30E3CB, #2C4ED4);
+    background-image: -moz-linear-gradient(top, #30E3CB, #2C4ED4);
+    background-image: -ms-linear-gradient(top, #30E3CB, #2C4ED4);
+    background-image: -o-linear-gradient(top, #30E3CB, #2C4ED4);
+    background-image: -webkit-gradient(to bottom, #30E3CB, #2C4ED4);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+ }
+
+
+
